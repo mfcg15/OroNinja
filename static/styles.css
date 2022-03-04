@@ -1,0 +1,138 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 40px;
+}
+
+.cont_superior
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.score
+{
+    display: flex;
+}
+
+.letras, .letrasS
+{
+    font-size: 30px;
+}
+
+.letrasS
+{
+    margin-right: 10px;
+}
+
+h2
+{
+    font-size: 30px;
+    color: plum;
+}
+
+a
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 22px;
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
+
+.cont_centro
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form
+{
+    width: 23%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 40px 0px; 
+}
+
+h3
+{
+    padding-bottom: 10px;
+    font-size: 44px;
+}
+
+.earns
+{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.earnsC
+{
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+
+button
+{
+    margin-top: 50px;
+    padding: 8px;
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.cont_superior, .cont_centro
+{
+    margin-bottom: 40px;
+}
+
+.cont_inferior
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.textArea
+{
+    margin-top: 8px;
+    border: 1px solid black;
+    height: 180px;
+}
+
+.div_scroll
+{
+    height: inherit;
+    overflow-y: scroll;
+}
+
+.informacion
+{
+    padding: 18px;
+}
+
+.letra_verde, .letra_roja
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.letra_verde
+{
+    color: rgb(68, 240, 68);
+}
+
+.letra_roja
+{
+    color:#e98580;
+}
